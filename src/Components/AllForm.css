@@ -1,0 +1,17 @@
+.tableDiv{
+    width: 70%;
+    margin: auto;
+    margin-top: 4%;
+}
+.tableDiv table{
+    width: 100%;
+    text-align: center;
+    border: 3px solid #47bb5b;
+}
+th{
+    color: #47bb5b;
+    padding-top: 10px;
+}
+td{
+    padding-top: 10px;
+}

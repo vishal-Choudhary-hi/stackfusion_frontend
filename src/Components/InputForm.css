@@ -1,0 +1,60 @@
+.inputForm{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.inputForm form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 5%;
+    border: none;
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    background-color:#47bb5b ;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+.error{
+    padding: 20px;
+    font-size: 18px;
+    color: rgb(207, 0, 0);
+    background-color: rgb(255, 165, 165);
+    margin:10px ;
+    margin-right:0 ;
+    border-radius: 5px;
+}
+.errordiv{
+    position: fixed;
+    right: 10px;
+    top:10px;
+}
+.errorinput{
+    background-color: rgb(255, 165, 165);
+    border-bottom:2px solid rgb(207, 0, 0);
+    border-radius: 5px;
+}
+.noerrorinput{
+    border-bottom:2px solid #47bb5b;
+    border-radius: 5px;
+}
+.back{
+    margin-top: 2%;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    color: #47bb5b;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+.navbar img{
+    width: 10%;
+    height: 120px;
+    margin-right: 4%;
+}
+.navbar h2{
+    color: #47bb5b;
+}
