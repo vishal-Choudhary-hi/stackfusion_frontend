@@ -68,6 +68,18 @@ function InpurForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (name === "") {
+      setNameError("Please enter name");
+      return;
+    }
+    if (dob === "") {
+      setDobError("Please enter date of birth");
+      return;
+    }
+    if (email === "") {
+      setEmailError("Please enter email");
+      return;
+    }
     if (checkToProceed(nameError, emailError, dobError) === true) {
       let data = {
         name: name,
