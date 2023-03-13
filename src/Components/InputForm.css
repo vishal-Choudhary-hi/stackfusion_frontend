@@ -73,6 +73,12 @@ button{
         font-size: 13px;
         padding: 3px;
         border-radius: 5px;
-    };
+    }
+    .error{
+        padding: 5px;
+        font-size: 9px;
+        margin: 0;
+        margin-bottom:2px ;
+    }
 
 }
