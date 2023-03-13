@@ -12,8 +12,9 @@ const validDob = (dob) => {
   if (m === 0 && today.getDate() < birthDate.getDate()) {
     age_now--;
   }
-  if (age_now >= 18) return true;
-  return false;
+  // if (age_now >= 18) return true;
+  // return false;
+  return true;
 };
 const checkToProceed = (nameError, emailError, dobError) => {
   if (

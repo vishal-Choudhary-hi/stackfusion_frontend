@@ -58,3 +58,9 @@ button{
     color: #47bb5b;
     cursor: pointer;
 }
+@media screen and (max-width: 1000px) {
+    .inputForm form{
+        width: 100%;
+    }
+    
+}

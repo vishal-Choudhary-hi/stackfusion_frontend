@@ -5,9 +5,14 @@
 }
 .navbar img{
     width: 10%;
-    height: 120px;
+    /* height: 12%; */
     margin-right: 4%;
 }
 .navbar h2{
     color: #47bb5b;
+}
+@media screen and (max-width: 1000px) {
+    .navbar img{
+        width: 15%;
+    }
 }
