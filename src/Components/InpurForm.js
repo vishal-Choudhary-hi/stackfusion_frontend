@@ -29,7 +29,7 @@ function InpurForm() {
   const firstRenderName = useRef(true);
   const firstRenderEmail = useRef(true);
   const firstRenderDob = useRef(true);
-  const [formSuccess, setFormSuccess] = useState(false);
+  const [formSuccess, setFormSuccess] = useState(true);
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState("");
   const [email, setEmail] = useState("");

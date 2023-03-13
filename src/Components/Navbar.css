@@ -15,4 +15,7 @@
     .navbar img{
         width: 15%;
     }
+    .navbar h2{
+        font-size: 13px;
+    }
 }

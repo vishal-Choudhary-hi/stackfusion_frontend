@@ -59,8 +59,20 @@ button{
     cursor: pointer;
 }
 @media screen and (max-width: 1000px) {
+    .inputForm{
+        margin-top: 5%;
+    }
     .inputForm form{
         width: 100%;
     }
-    
+    input {
+        font-size: 13px;
+        margin-bottom: 8%;
+    }
+    button{
+        font-size: 13px;
+        padding: 3px;
+        border-radius: 5px;
+    };
+
 }

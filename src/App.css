@@ -11,3 +11,9 @@
     font-size: 18px;
     color: #47bb5b;
 }
+@media screen and (max-width: 1000px) {
+    .name{
+        font-size: 12px;
+        margin-top: 15%;
+    }
+}
